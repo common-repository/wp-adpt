@@ -1,0 +1,116 @@
+.adpt table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .adpt td, .adpt th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  .adpt tr{
+    background-color: #fff;
+  }
+  .adpt tr:nth-child(odd) {
+    background-color: #dddddd;
+  }
+  
+  /*Services Style*/
+  span.adpt-services {
+      display: block;
+      padding: 3px;
+  }
+  
+  input.adpt-shortcode {
+      width: 50%;
+  }
+  
+  /*Data table un approved row*/
+
+  tr.unapprove {
+      background: antiquewhite !important;
+  }
+  #carbon_fields_container_pricing_table_settings .inside {
+      padding: 0 !important;
+      margin: 0 !important;
+      min-height: 100vh;
+      overflow-x: hidden;
+
+  }
+.cf-field.cf-checkbox {
+        display: inline-grid;
+        align-items: center;
+    }
+
+/*Tab Style*/
+
+.cf-container.cf-container-carbon_fields_container_pricing_table_settings.cf-container-post-meta {
+    display: flex;
+}
+
+.cf-container-carbon_fields_container_pricing_table_settings .cf-container__tabs {
+    position: relative;
+    z-index: 1;
+    padding: 0;
+    border-bottom: 1px solid #e2e4e7;
+    background-color: #1D2327;
+    width: 20%;
+    min-height: 100vh;
+
+}
+.cf-container-carbon_fields_container_pricing_table_settings .cf-container__fields {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -1px 0 0;
+    background-color: #fff;
+    width: 80%;
+    width: 80%;
+    position: absolute;
+    right: 0;
+}
+.cf-container-carbon_fields_container_pricing_table_settings .cf-field{
+  display: flex;
+}
+.cf-container-carbon_fields_container_pricing_table_settings .cf-container__tabs-list {
+    display: block;
+    flex-wrap: wrap;
+    margin: 0 0 -1px;
+}
+
+.cf-container-carbon_fields_container_pricing_table_settings .cf-container__tabs-item {
+    display: block;
+    margin: 0;
+    background-color: #1D2327;
+    border: 0;
+}
+
+.cf-container-carbon_fields_container_pricing_table_settings .cf-container__tabs-item:hover {
+    display: block;
+    margin: 0;
+    background-color: #2C3338;
+    border: 0;
+}
+
+.cf-container-carbon_fields_container_pricing_table_settings .cf-container__tabs-item button {
+    background: 0;
+    border: 0;
+    padding: 10px 12px;
+    margin: 0;
+    width: 100%;
+    text-align: left;
+    font-size: 14px;
+    color: rgba(240,246,252,.7);
+    cursor: pointer;
+}
+
+.cf-container-carbon_fields_container_pricing_table_settings .cf-container__tabs-item--current button{
+    display: block;
+    margin: 0;
+    background-color: #2C3338 !important;
+    border: 0;
+    color: #fff !important;
+}
+.cf-container-carbon_fields_container_pricing_table_settings .cf-container__tabs-item .cf-container__tabs-item--current {
+    background-color: #2c3338 !important;
+}
